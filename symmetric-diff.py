@@ -1,0 +1,20 @@
+if __name__ == '__main__':
+    set1 = ()
+    set2 = ()
+    set3 = ()
+    set4 = ()
+    set5 = ()
+    ls = []
+    n = int(raw_input())
+    arr = map(int,raw_input().split())
+    set1 = set(arr)
+    m = int(raw_input())
+    arr1 = map(int, raw_input().split())
+    set2 = set(arr1)
+    set3 = set1.difference(set2)
+    set4 = set2.difference(set1)
+    set5 = set3.union(set4)
+    ls = list(set5)
+    ls  = sorted(ls)
+    for l in ls:
+        print(l)
