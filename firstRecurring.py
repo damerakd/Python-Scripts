@@ -9,5 +9,5 @@ class FirstRecurringCharacter:
         return None
 
 first_recurring_character = FirstRecurringCharacter()
-result = first_recurring_character.first_recurring("ABCD")
+result = first_recurring_character.first_recurring("ABCBAD")
 print(result)
